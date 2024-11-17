@@ -1,0 +1,12 @@
+#result { 
+	font-size: 4em; /* Sharp and bold */ 
+	color: #FF4500; /* Bright cartoonish red */ 
+	font-family: 'Comic Sans MS', cursive, sans-serif; /* Cartoon-style font */ 
+	text-shadow: 2px 2px 0px #FFA500, 4px 4px 0px #0000FF; /* Multi-layered shadows for a playful effect */ 
+	}
+	 
+body { 
+	text-align: center; 
+	background-color: #F0F8FF; /* Light, attractive background */ 
+	font-family: 'Comic Sans MS', cursive, sans-serif; /* Cartoon-style font for the entire body */ 
+	}
