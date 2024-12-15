@@ -1,12 +1,53 @@
-#result { 
-	font-size: 4em; /* Sharp and bold */ 
-	color: #FF4500; /* Bright cartoonish red */ 
-	font-family: 'Comic Sans MS', cursive, sans-serif; /* Cartoon-style font */ 
-	text-shadow: 2px 2px 0px #FFA500, 4px 4px 0px #0000FF; /* Multi-layered shadows for a playful effect */ 
-	}
-	 
-body { 
-	text-align: center; 
-	background-color: #F0F8FF; /* Light, attractive background */ 
-	font-family: 'Comic Sans MS', cursive, sans-serif; /* Cartoon-style font for the entire body */ 
-	}
+body {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FFFAF0; /* Snowy white background */
+    background-image: url('https://img.freepik.com/free-psd/realistic-snowflakes-border-design_23-2151074098.jpg?t=st=1734106680~exp=1734110280~hmac=249c3e0eac7cd5965f7707d78bdfd2f5c4a8bbf1163ead8d4d3050d831c2f59a&w=1060'); /* Replace with a URL of your favorite cartoon Christmas background */
+    background-size: cover;
+}
+
+#result {
+    font-size: 400%;
+    color: #FF0000; /* Bright red */
+    text-shadow: 2px 2px #FFD700; /* Gold shadow */
+    font-family: 'Marker Felt', cursive;
+    background: url('https://example.com/cartoon-bell.png') no-repeat left center;
+    padding-left: 50px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid #32CD32; /* Green border */
+    background-color: #F0FFF0; /* Light green background */
+    background-image: url('https://as2.ftcdn.net/v2/jpg/03/90/12/33/1000_F_390123355_EvF7EkK6bRkWspl7qsgiqSH58UKXyZu2.jpg'); /* Replace with a URL of your favorite cartoon Christmas table background */
+    background-size: cover;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #8B0000; /* Dark red border */
+    background-color: #FFFACD; /* Lemon chiffon background */
+    background-image: url('https://as2.ftcdn.net/v2/jpg/03/90/12/33/1000_F_390123355_EvF7EkK6bRkWspl7qsgiqSH58UKXyZu2.jpg'); /* Replace with a URL of a cartoon snowflake */
+/*    background-size: 20px 20px; */
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: #32CD32; /* Lime green */
+    border: 2px solid #FFD700; /* Gold border */
+    border-radius: 15px;
+    color: #FFFFFF; /* White text */
+    padding: 10px 20px;
+    text-shadow: 1px 1px #000000; /* Black text shadow */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: url('https://example.com/cartoon-christmas-tree.png'); /* Replace with a URL of your favorite cartoon Christmas tree */
+    background-size: cover;
+}
+
+button:hover {
+    background-color: #228B22; /* Forest green */
+    color: #FFD700; /* Gold text on hover */
+}

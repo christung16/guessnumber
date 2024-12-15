@@ -6,3 +6,12 @@
 body {
     text-align: center;
 }
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}

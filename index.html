@@ -3,19 +3,27 @@
         <title>
             Guess Number
         </title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style-fromgenai.css">
     </head>
     <body>
         <h1>Guess Number Game</h1>
         <hr>
+        <h5><table>
+            <tr>
+                <td><div id="chance">Chances: 6</div></td>
+                <td><div id="score">Score: 0 </div></td>
+            </tr>
+        </table></h5>
         <div id="result">!</div>
         <hr>
-        <input type="number" id="guessnumber">
+        <input type="number" id="guessnumber" min="1" max="100" oninput="if(this.value>100) this.value=100;if(this.value<1) this.value=1;" ">
         <button onclick="guess()" id="guess">Submit</button>
         <hr>
         <pre>
             Note: Random number will be generated between 1-100.
             Please input your guess number and re-try until you find the correct number
+            You have 6 chances to guess the number. You will lost if you cannot guess the number within 6 times
+            When you win the game, you get 10 marks.
         </pre>
         <script src="./script.js"></script>
     </body>
